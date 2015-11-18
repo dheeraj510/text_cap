@@ -7,22 +7,6 @@ server '52.23.72.226', user: 'ubuntu', roles: %w{app db web}, my_property: :my_v
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-# task :hellow do
-# 	p "I am in staging"
-# 	execute " echo 'createing a text file by cap' > ~helllll.rb"
-# end
-
-
-# role :mailserver, "root@mail.example.com"
-
-task :check_mail do
-  # on roles(:mailserver) do
-  p 'createing some_command file on ....'
-    system "touch ./some_command.rb"
-  # end
-end
-
-
 # role-based syntax
 # ==================
 
