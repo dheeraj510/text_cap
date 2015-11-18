@@ -15,7 +15,7 @@ set :deploy_to, '/home/ubuntu/Cap/text_cap'
 
 # Default value for :format is :pretty
 # set :format, :pretty
-set :rvm_ruby_version, "2.0.0-p353@global"
+set :rvm_ruby_version, "ruby-2.2.1@global"
 
 
 # Default value for :log_level is :debug
