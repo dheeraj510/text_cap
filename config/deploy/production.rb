@@ -20,7 +20,7 @@ server '52.23.72.226', user: 'ubuntu', roles: %w{app db web}, my_property: :my_v
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
  set :ssh_options, {
-   keys: %w(/home/sai/Downloads/fm_dev.pem),
+   keys: %w(fm_dev.pem),
    forward_agent: false,
    auth_methods: %w(publickey password)
  }
